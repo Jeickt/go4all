@@ -1,6 +1,6 @@
-import React, { Component} from 'react'
+import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import Estilo from './estilo'
+import Estilo from '../estilos/estilo'
 
 export default class Circulo extends Component {
   render() {

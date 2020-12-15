@@ -1,30 +1,27 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-  fundoGeral: {
+  geral: {
     flexGrow: 1,
     backgroundColor: '#000000',
   },
-  fundoObjetivo: {
+  objetivo: {
     backgroundColor: '#000000',
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  fundoRecomeco: {
-    backgroundColor: '#000000',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   sentidoCaixasColula: {
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   sentidoCaixasLinha: {
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   centro: {
-    justifyContent: "space-around",
-    alignItems: "center",
+    justifyContent: 'space-around',
+    alignItems: 'center',
   },
   circulo: {
     width: 110,
@@ -32,8 +29,8 @@ export default StyleSheet.create({
     borderRadius: 55,
     backgroundColor: '#31BB42',
     margin: 5,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   txtPrincipal: {
     color: '#FFFFFF',
@@ -42,15 +39,15 @@ export default StyleSheet.create({
   },
   txtSecundario: {
     fontSize: 20,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
   txt4All: {
     color: '#191919',
     fontSize: 28,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
   txtParabens: {
     fontSize: 20,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   }
 })

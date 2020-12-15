@@ -5,8 +5,8 @@ export default props => {
 
   return (
     <Button
-      color="#000000"
-      title="Recomeçar"
+      color='#000000'
+      title='Recomeçar'
       onPress={props.funcao}
     />
   )
